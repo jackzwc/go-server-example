@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+db:
+  host: "localhost"
+  port: "5432"
+  user_name: "test"
+  password: "123456"
+  database: "test"
+  timeout: 30
+  max_open_conns: 100
+  max_idle_conns: 30
